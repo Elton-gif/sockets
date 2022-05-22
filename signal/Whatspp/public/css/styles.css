@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;0,800;1,600;1,700&display=swap');
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    width: 100vh;
+    height: 100vw;
+    overflow: hidden;
+    
+}
+main
+{
+   
+    display: grid;
+    width: 96%;
+    position: relative;
+    margin: 0 auto;
+    /* gap: 0.2rem; */
+    grid-template-columns: 20rem 100% 20rem;
+}
+
+section:nth-child(1)
+{
+background-color: bisque;
+padding: 12px;
+height:17cm;
+overflow-x: hidden;
+overflow-y: auto;
+
+}
+#lilprofile
+{
+    display: flex;
+    gap: 1rem;
+
+}
+#lastsen
+{
+    margin-left:-85px;
+    margin-top:36px;
+}
+#lilprofile input
+{
+    border: none;
+    outline: none;
+    padding: 2.5px;
+}
+#profileimg
+{
+    height: 1.5cm;
+    width: 1.5cm;
+    background-color: black;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#lastseen,#lastmessgae,#thename
+{
+    padding: 0;
+    margin: 0;
+}
+#details
+{
+    gap:1rem;
+}
+#contact
+{
+    display: flex;
+    margin-top: 1.5rem;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+#sapce
+{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+}
+#lastmessgae
+{
+   /* background-color: aqua; */
+   word-break: keep-all;
+   max-width: 13rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: gray;
+}
+#countss
+{
+    display: flex;
+}
+#count
+{
+    background-color: aqua;
+    color: black;
+    height: 1rem;
+    width: 1rem;
+    padding:0.2rem ;
+    text-align: center;
+    font-size: 0.7rem;
+    border-radius: 50%;
+}
+section:nth-child(2)
+{
+background-color: whitesmoke;
+color: black;
+position: relative;
+
+}
+#chatimg
+{
+    background-color: aquamarine;
+    width: 1.5cm;
+    height: 1.5cm;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+#bar
+{
+ background-color: rgb(228, 197, 157); 
+ display: flex;
+ padding: 5px;
+  
+}
+#bar h2,#bar p
+{
+    padding: 0;
+    margin: 0;
+
+}
+#chatarea
+{
+    background-color: coral;
+    height: 14cm;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+   
+    overflow-y: scroll;
+}
+#right
+{
+   
+    max-width: 60%;
+    margin-bottom: 0.25rem;
+    align-self: flex-start;
+    padding: 0.5rem;
+    position: relative;
+}
+#my
+{
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+    width: fit-content;
+   
+    margin-top:3px;
+    border-radius: 500px;
+}
+#times
+{
+    /* font-size: 0.3em; */
+    margin-top: 0;
+    padding: 0;
+    /* margin-left: 12px; */
+}
+#from
+{
+    background-color: antiquewhite;
+    padding: 5px;
+    width: fit-content;
+    margin-bottom: 2px;
+    /* margin-right: 12px; */
+    border-radius: 500px;
+   
+}
+#left
+{
+    
+    
+    max-width: 60%;
+    margin-bottom: 0.25rem;
+    align-self: flex-end;
+    padding: 0.5rem;
+    position: relative;
+
+}
+#chatprofile
+{
+    padding-bottom: 5px;
+}
+#inputs
+{
+    /* position: fixed; */
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+#textchat
+{
+    width: 100%;
+    margin: auto 12px ;
+    padding: 5px;
+    outline: none;
+    border-radius: 500px;
+    border: none;
+
+}
+#send
+{
+    outline: none;
+    border: none;
+    
+}
+#media
+{
+    cursor: pointer;
+}
+#file
+{
+    display: none;
+}
+
+section:nth-child(3)
+{
+/* background-color: brown; */
+position: relative;
+}
+#basicprofile
+{
+
+/* transform: translateY(50%); */
+ background-color: rgb(228, 197, 157); 
+ display: flex;
+ padding: 5px;
+  
+}
+#bp
+{
+    background-color: aquamarine;
+    width: 1.5cm;
+    height: 1.5cm;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+#idprofile
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

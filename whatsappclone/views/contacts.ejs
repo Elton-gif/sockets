@@ -1,0 +1,87 @@
+<%-include('partials/header')-%>
+
+
+<body>
+<div id='phone' class="d-lg-none">
+   <div id="headerchat">
+       <div id="partone">
+        <div id="contactimage">
+            <a href="/chats" id="arrowback">
+                <span class="material-icons-sharp">
+                    arrow_back
+                    </span>
+               </a>
+            <img src="" alt="">
+        </div>
+        <div id="contactDetails">
+            <p id="name">Name</p>
+            <p id="mode">Online</p>
+        </div>
+       </div>
+
+       <div id="action">
+           <div id="videocall"><span class="material-icons-sharp">
+            video_camera_front
+            </span></div>
+
+            <div id="phone">
+                <span class="material-icons-sharp">
+                    phone
+                    </span>
+            </div>
+
+            <div id="more">
+                <span class="material-icons-sharp">
+                    more_vert
+                    </span>
+            </div>
+       </div>
+       
+
+     
+   </div>
+   <div id="chatarea">
+       <div id="right">
+           <p id="meso">
+               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae doloremque dolor eius quibusdam quos excepturi!
+           </p>
+           <p id="timetick">
+               2:04pm
+              
+           </p>
+       </div>
+       <div id="left">
+           <p id="meso">
+               Lorem ipsum dolor sit amet.
+               <p id="timetick">
+                2:04pm
+                <span class="material-icons-sharp">
+                 done_all
+                 </span>
+            </p>
+           </p>
+
+       </div>
+
+   </div>
+
+   <div id="inputs">
+       <div id="allinput">
+           
+           <input type="text" id="text" placeholder="Message" >
+        <label for="file" id="iconfile">
+            <span class="material-icons-sharp">
+                attach_file
+                </span>
+        </label>
+        <label for="" id="send"><span class="material-icons-sharp">
+            send
+            </span></label>
+           <input type="file" id="file">
+       </div>
+   </div>
+</div>
+ 
+<%- include('partials/footer') -%>
+</body>
+</html>

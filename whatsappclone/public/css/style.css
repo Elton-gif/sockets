@@ -1,0 +1,259 @@
+body{
+overflow-y: hidden;
+height: 100vh;
+width: 100vw;
+position: relative;
+box-sizing: border-box;
+}
+#ribbon
+{
+    background-color:#128C7E;
+    color: white;
+    display: flex;
+    width: 100%;
+   justify-content: space-around;
+    height: 2cm;
+    position: relative;
+}
+header
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color:#128C7E;
+    color: white;
+    padding: 5px;
+}
+#count
+{
+    background-color: white;
+    /* padding: 5px; */
+    width: 1cm;
+    padding: 5px;
+    font-size: 0.7em;
+    height: 0.5cm;
+    border-radius:50% ;
+    color: #128C7E;
+}
+#tab
+{
+    /* position: absolute; */
+    margin-top: 10%;
+    cursor: pointer;
+    border-bottom: white solid  3px ;
+   
+}
+main
+{
+   
+  
+    width: 100%;
+    /* background-color: black; */
+    overflow-y: hidden;
+}
+section
+{
+    height: 100%;
+    padding: 7px;
+    width: 100%;
+    /* background-color: black; */
+}
+.chats
+{
+    width: 100%;
+    
+    /* background-color: black; */
+}
+#tile
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    width: 100%;
+}
+#pimage
+{
+    height: 1.5cm;
+    width: 1.5cm;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 5px;
+}
+p
+{
+    margin: 0;
+    padding: 0;
+}
+#profileone
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#lastmessage
+{
+color: gray;
+font-size:0.9em ;
+padding: 5px;
+}
+#tick
+{
+    margin: 0;
+    padding: 0;
+    font-size: 0.9em;
+}
+#headerchat
+{
+    display: flex;
+    width: 100%;
+
+}
+
+
+/* Chat screeen */
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#headerchat
+{
+    position: fixed;
+    top: 0;
+    background-color: #128C7E;
+    color: white;
+    padding: 5px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+#partone
+{
+display: flex;
+}
+#action
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#action span
+{
+    margin-left: 20px;
+}
+#name
+{
+    font-size: 1.1em;
+    margin: 0;
+    padding: 0;
+}
+#contactimage img
+{
+    height: 1.7cm;
+    width: 1.7cm;
+    border-radius: 50%;
+    margin-left: 10px;
+    background-color: black;
+}
+#contactDetails
+{
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+#mode
+{
+    font-size: 0.8rem;
+    margin-left: -5px;
+}
+#allinput
+{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    width: 100%;
+    align-items:center;
+    bottom: 10px;
+}
+#file
+{
+    display: none;
+}
+#iconfile
+{
+
+}
+#text
+{
+    width:8cm;
+    outline: none;
+    padding: 5px;
+    border-radius: 500px;
+    border-color: transparent;
+    background-color: burlywood;
+
+}
+#iconfile
+{
+    background-color: #128C7E;
+    padding: 3px;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+#chatarea
+{
+    background-color: teal;
+    width: 100%;
+    transform: translateY(2cm);
+    position: relative;
+    height: 17cm;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+#right
+{
+    max-width: 60%;
+    margin-top: 5px;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 0.25rem;
+    align-self: flex-start;
+    padding: 0.5rem;
+    position: relative;
+
+}
+#meso
+{
+    /* width: 4cm; */
+    
+}
+#left
+{
+    
+  
+    max-width: 60%;
+    margin-bottom: 0.25rem;
+    background-color: #dcf8c6;
+    border-radius: 16+5px;
+    align-self: flex-end;
+    padding: 0.5rem;
+    position: relative;
+
+}
+#timetick
+{
+    display: flex;
+    font-size: 0.5em;
+    margin-left: 75%;
+}
+
+#timetick span
+{
+    
+    font-size: 1.8em;
+    margin-left: 5px;
+}
